@@ -1,0 +1,38 @@
+{
+	"question": "What do you want?",
+	"answers": [
+		{
+			"name": "Installation",
+			"question": "What type of Installation do you want to perform",
+			"answers": [
+				{
+					"name": "Source",
+					"question": "Last step",
+					"answers": [
+						{
+							"name":"test",
+							"question": "done",
+							"content": "templates/test.htm",
+							"answers":[]
+						}
+					],
+					"content": "templates/source.htm"
+				},
+				{
+					"name":"Docker",
+					"question":"Last step",
+					"answers":[],
+					"content": "templates/docker.htm"
+				}
+			],
+			"content": "templates/installation.htm"
+		},
+		{
+			"name":"Maintenance",
+			"question": "Select Options from below",
+			"answers":[],
+			"content": "templates/maintenance.htm"
+		}
+	],
+	"content": "templates/start.htm"
+}

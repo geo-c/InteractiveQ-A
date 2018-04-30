@@ -1,0 +1,38 @@
+.wrapper{
+	display: flex;
+	align-items: stretch;
+	min-height:100vh;
+}
+#sidebar {
+	border-right: 2px solid black;
+	min-width: 200px;
+}
+.question {
+	border: 2px dotted black;
+}
+
+
+.push-to-bottom {
+  position: absolute;
+  bottom: 50px;
+}
+
+
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+    .btn-responsive {
+	    padding:2px 4px;
+	    font-size:80%;
+	    line-height: 1;
+	    border-radius:3px;
+  }
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+    .btn-responsive {
+	    padding:4px 9px;
+	    font-size:90%;
+	    line-height: 1.2;
+	  }
+}
